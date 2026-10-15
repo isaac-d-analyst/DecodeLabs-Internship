@@ -1,11 +1,11 @@
 # DecodeLabs Data Analytics Internship
-### Isaac Okolie | SkillAhead Solutions Ltd | 2026
+### Isaac Okolie | SkillAhead Academy | 2026
 
 ---
 
 ## 👤 About Me
 
-**Isaac Okolie** — Computer Science Graduate, Data Analyst & Data Analytics Tutor @ **SkillAhead Solutions Ltd** based in Nigeria-
+**Isaac Okolie** — Computer Science Graduate, Data Analyst & Data Analytics Tutor @ **SkillAhead Academy** based in Nigeria-
 and accredited by the **Institute of Analytics (IoA), United Kingdom.**
 
 This repository documents my complete internship work at DecodeLabs
@@ -88,13 +88,13 @@ PaymentMethod, ReferralSource, CouponCode, OrderStatus, Date
 
 ## 🔍 Project 1 — Data Integrity & Cleaning Audit
 
-📂 [View Folder](https://github.com/isaac-d-analyst/Task-1-Isaac_Okoile) &nbsp;|&nbsp; 🛠️ Excel & Power Query
+📂 [View Folder](https://github.com/isaac-d-analyst/Task-1-Isaac_Okolie) &nbsp;|&nbsp; 🛠️ Excel & Power Query
 
 **Objective:** Audit and clean the raw dataset before any analysis begins.
 
 **Key Work:**
 - Found and resolved 309 missing CouponCode values
-- Confirmed OrderID has zero duplicates (1,000 distinct = 1,000 unique)
+- Confirmed OrderID has zero duplicates (1,200 distinct = 1,200 unique)
 - Converted Date column from numeric format using Locale settings
 - Applied IQR method to detect outliers in UnitPrice and TotalPrice
 - Investigated 8 TotalPrice outliers — confirmed valid, retained
@@ -111,7 +111,7 @@ PaymentMethod, ReferralSource, CouponCode, OrderStatus, Date
 
 ## 📈 Project 2 — Exploratory Data Analysis (EDA)
 
-📂 [View Folder](https://github.com/isaac-d-analyst/Task-2-Isaac_Okoile) &nbsp;|&nbsp; 🛠️ Excel & Power Query
+📂 [View Folder](https://github.com/isaac-d-analyst/Task-2-Isaac_Okolie) &nbsp;|&nbsp; 🛠️ Excel & Power Query
 
 **Objective:** Explore patterns, detect outliers, and measure variable relationships.
 
@@ -123,7 +123,7 @@ PaymentMethod, ReferralSource, CouponCode, OrderStatus, Date
 | UnitPrice → TotalPrice Correlation | 0.72 (Strong Positive) |
 | TotalPrice Outliers | 8 found (all valid — high cart volumes) |
 | Combined Cancellation + Return Rate | 41.4% |
-| Monthly Revenue Trend | Consistent downward trend since mid-2024 |
+| Quarterly Revenue Trend | Peaked at $145.6K in Q2 2024, fell for three quarters to $103.6K, then recovered to $128.3K in Q2 2025 |
 
 **Workbook Sheets:**
 
@@ -140,7 +140,7 @@ PaymentMethod, ReferralSource, CouponCode, OrderStatus, Date
 
 ## 🗄️ Project 3 — SQL for Data Analysis
 
-📂 [View Folder](https://github.com/isaac-d-analyst/Task-3-Isaac_Okoile) &nbsp;|&nbsp; 🛠️ MySQL
+📂 [View Folder](https://github.com/isaac-d-analyst/Task-3-Isaac_Okolie) &nbsp;|&nbsp; 🛠️ MySQL
 
 **Objective:** Extract actionable business insights using structured SQL queries.
 
@@ -150,25 +150,25 @@ PaymentMethod, ReferralSource, CouponCode, OrderStatus, Date
 |----------|---------|-----------|
 | Data Inspection | 1–3 | 1,200 records confirmed |
 | Data Cleaning | 4–5 | 309 CouponCode nulls resolved |
-| Revenue Analysis | 6–7 | $1,264,738 total revenue |
+| Revenue Analysis | 6–7 | $1,264,762 total revenue |
 | Customer & Product | 8–10 | 1,189 unique customers |
-| Fulfillment Analysis | 11–15 | $519,658 total revenue at risk |
+| Fulfillment Analysis | 11–15 | $519,674 total revenue at risk |
 | Behavior & Trends | 16–18 | Channel and trend patterns identified |
 
 **Key Financial Results:**
 | Metric | Value |
 |--------|-------|
-| Total Revenue | $1,264,738 |
-| Average Order Value | $1,053.95 |
-| Revenue Lost to Returns | $243,268 |
-| Revenue Lost to Cancellations | $276,390 |
-| Combined Revenue at Risk | $519,658 |
+| Total Revenue | $1,264,762 |
+| Average Order Value | $1,053.97 |
+| Revenue Lost to Returns | $243,278 |
+| Revenue Lost to Cancellations | $276,396 |
+| Combined Revenue at Risk | $519,674 |
 
 ---
 
 ## 📊 Project 4 — Data Visualization & Storytelling
 
-📂 [View Folder](https://github.com/isaac-d-analyst/Task-4-Isaac_Okoile) &nbsp;|&nbsp; 🛠️ Power BI
+📂 [View Folder](https://github.com/isaac-d-analyst/Task-4-Isaac_Okolie) &nbsp;|&nbsp; 🛠️ Power BI
 
 **Objective:** Build a 2-page Power BI dashboard communicating revenue insights clearly.
 
@@ -202,7 +202,7 @@ PaymentMethod, ReferralSource, CouponCode, OrderStatus, Date
 3. **Chair, Printer, and Laptop** are the top 3 revenue-generating products
 4. **41.4%** of all orders cancelled or returned — the biggest operational challenge
 5. Over **$519,000** in revenue was lost and is potentially recoverable
-6. Revenue shows a **consistent downward trend** since mid-2024
+6. Revenue **fell for three consecutive quarters** after peaking in Q2 2024, then partly recovered in Q2 2025
 7. UnitPrice is the strongest driver of TotalPrice (**r = 0.72**)
 8. All 5 payment methods are near-equally distributed
 9. 309 missing CouponCode records were resolved without any data loss
@@ -232,4 +232,4 @@ Data Analyst & Data Analytics Tutor | Nigeria
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/ebube-isaac-okolie)
 ---
 
-*DecodeLabs Internship | SkillAhead Solutions Ltd | Accredited by Institute of Analytics, UK*
+*DecodeLabs Internship | SkillAhead Academy | Accredited by Institute of Analytics, UK*
